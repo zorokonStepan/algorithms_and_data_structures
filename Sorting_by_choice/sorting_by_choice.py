@@ -19,5 +19,6 @@ def sorting_by_choice(arr: list):
     return new_arr
 
 
-A = [9, 1, 3, 6, 8, 2, 7, 5, 4]
-print(sorting_by_choice(A))
+a = [7, 5, 1, 4, 8, 9, 3, 2, 6]
+
+assert sorting_by_choice(a) == [1, 2, 3, 4, 5, 6, 7, 8, 9]

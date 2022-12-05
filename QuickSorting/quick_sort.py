@@ -10,5 +10,6 @@ def quick_sort(arr: list):
     return quick_sort(less) + [pivot] + quick_sort(greater)
 
 
-A = [9, 30, 15, 81, 9, 9, 30, 15, 74]
-print(quick_sort(A))
+a = [7, 5, 1, 4, 8, 9, 3, 2, 6]
+
+assert quick_sort(a) == [1, 2, 3, 4, 5, 6, 7, 8, 9]
